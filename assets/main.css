@@ -1,0 +1,1069 @@
+* {
+  box-sizing:border-box;
+  margin:0;
+  }
+
+  body {
+  	font-family:"helvetica", sans-serif;
+  	background: #FFC700;
+  }
+
+  /* navigation */
+
+.nav-container {
+position: absolute;
+width: 1300px;
+height: 45px;
+background: #000000;;
+}
+
+.wrapper {
+
+	max-width:715px;
+	margin:0;
+}
+
+nav {
+	display: flex;
+	align-items:left;
+}
+
+nav ul {
+	display: flex;
+
+}
+
+.nav-items li {
+list-style: none;
+margin-right: 255px;
+}
+
+.nav-items li: nth-last-of-type(1){
+	margin: 0;
+}
+
+.nav-items li a{
+text-decoration:none;
+color: #FFFFFF;
+font-size: 18px;
+font-family: helvetica, sans-serif; 
+font-weight: bold;
+position: absolute;
+top: 12px;
+}
+
+.nav-items li a:hover {
+color: #283184;
+transition: .5s;
+cursor: pointer;
+}
+
+ /* title */
+
+
+
+.title1 {
+font-family: helvetica;
+font-weight: bold;
+font-size: 30px; 
+color: #000000; 
+line-height: 90px;
+position: absolute;
+padding: 5px;
+top: 45px;
+ }
+
+ .title2 {
+font-family: helvetica, sans-serif; 
+font-weight: bold;
+font-size: 30px; 
+color: #000000; 
+position: absolute;
+padding: 5px;
+top: 55px;
+}
+
+.title1:hover {
+	background: -webkit-radial-gradient(#288431, #288431, #288431);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+ } 
+
+ .title2:hover {
+	background: -webkit-radial-gradient(#288431, #288431, #288431);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+ } 
+
+/* home page */
+
+hr {
+
+margin-top: 10px;
+margin-bottom: 10px; 
+}
+
+.date {
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 25px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 168px;
+}
+
+.address {
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 20px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 218px;
+}
+
+.address:hover {
+	background: -webkit-radial-gradient(#3CABAB, #3CABAB, #3cabab);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+ } 
+
+.time{
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 20px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 238px;
+}
+
+.time:hover {
+	background: -webkit-radial-gradient(#3CABAB, #3CABAB, #3cabab);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+ } 
+
+.artists {
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 20px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 280px;
+}
+
+.artists:hover {
+	background: -webkit-radial-gradient(#CD2626, #CD2626, #CD2626);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+ } 
+
+.location {
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 20px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 218px;
+left: 150px;
+}
+
+.location:hover {
+	background: -webkit-radial-gradient(#3CABAB, #3CABAB, #3cabab);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+ } 
+
+.appointment {
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 20px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 238px;
+left: 150px;
+}
+
+.appointment:hover {
+	background: -webkit-radial-gradient(#3CABAB, #3CABAB, #3cabab);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+ } 
+
+.joey {
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 20px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 280px;
+left: 150px;
+}
+
+.joey:hover {
+	background: -webkit-radial-gradient(#A01BCF, #A01BCF, #A01BCF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.laura {
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 20px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 300px;
+left: 150px;
+}
+
+.laura:hover {
+	background: -webkit-radial-gradient(#A01BCF, #A01BCF, #A01BCF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.mundo {
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 20px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 280px;
+left: 355px;
+}
+
+.mundo:hover {
+	background: -webkit-radial-gradient(#A01BCF, #A01BCF, #A01BCF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.patssi{
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 20px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 300px;
+left: 355px;
+}
+
+.patssi:hover {
+	background: -webkit-radial-gradient(#A01BCF, #A01BCF, #A01BCF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+
+.anthony
+img {
+position: absolute;
+bottom: -300px;
+    width: 820px;
+    height: 565px;
+    left: 15px;
+   margin-top: 60px;
+
+}
+
+
+.anthony-descript{
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 12px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 880px;
+left: 830px;
+}
+
+/* info page */
+
+.location2 {
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 25px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 40px;
+}
+
+.appointment2 {
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 25px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 90px;
+}
+
+.mamco
+img {
+position: absolute;
+    bottom: -90px;
+    width: 820px;
+    height: 565px;
+    left: 15px;
+}
+
+.hour{
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 20px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 380px;
+left: 830px;
+}
+
+.day1{
+font-family: helvetica, sans-serif;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 420px;
+left: 830px;
+}
+
+.day2{
+font-family: helvetica, sans-serif;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 450px;
+left: 830px;
+}
+
+.day3{
+font-family: helvetica, sans-serif;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 480px;
+left: 830px;
+}
+
+.day4{
+font-family: helvetica, sans-serif;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 510px;
+left: 830px;
+}
+
+.day5{
+font-family: helvetica, sans-serif;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 540px;
+left: 830px;
+}
+
+.day6{
+font-family: helvetica, sans-serif;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 570px;
+left: 830px;
+}
+
+.day7{
+font-family: helvetica, sans-serif;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 600px;
+left: 830px;
+}
+
+.contact1{
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 640px;
+left: 830px;
+}
+
+.contact2{
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 670px;
+left: 830px;
+}
+
+.contact3{
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 700px;
+left: 830px;
+}
+
+
+.time1{
+font-family: helvetica, sans-serif;
+font-style: italic;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 420px;
+left: 880px;
+}
+
+
+.time2{
+font-family: helvetica, sans-serif;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 450px;
+left: 880px;
+}
+
+.time3{
+font-family: helvetica, sans-serif;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 480px;
+left: 880px;
+}
+
+.time4{
+font-family: helvetica, sans-serif;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 510px;
+left: 880px;
+}
+
+.time5{
+font-family: helvetica, sans-serif;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 540px;
+left: 880px;
+}
+
+.time6{
+font-family: helvetica, sans-serif;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 570px;
+left: 880px;
+}
+
+.time7{
+font-family: helvetica, sans-serif;
+font-size: 15px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 600px;
+left: 880px;
+}
+
+
+/* info page */
+
+.intro{ 
+color: #000000;
+font-weight: normal;
+font-family: helvetica, sans-serif;
+font-size: 20px;
+margin: 20px;
+margin-top: 157px;
+top: 600px;
+left: 880px;
+
+}
+
+
+.joey img {
+position: absolute;
+    bottom: -435px;
+    width: 450px;
+    height: 595px;
+    left: 600px;
+}
+
+/* artists page */
+
+.description1 {
+
+color: black;
+font-weight: normal;
+font-family: helvetica, sans-serif;
+text-decoration:none;
+font-size: 20px;
+
+
+}
+
+.artist1{ 
+color: #000000;
+font-weight: bold;
+font-family: helvetica, sans-serif;
+text-decoration:none;
+font-size: 20px;
+margin-top: 157px;
+top: 600px;
+left: 880px
+
+}
+
+
+.artist1:hover {
+	background: -webkit-radial-gradient(#A01BCF, #A01BCF, #A01BCF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.artist2{ 
+text-decoration:none;
+color: #000000;
+font-weight: bold;
+font-family: helvetica, sans-serif;
+font-size: 20px;
+
+}
+
+.artist2:hover {
+	background: -webkit-radial-gradient(#A01BCF, #A01BCF, #A01BCF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.artist3 { 
+text-decoration:none;
+color: #000000;
+font-weight: bold;
+font-family: helvetica, sans-serif;
+font-size: 20px;
+
+}
+
+.artist3:hover {
+	background: -webkit-radial-gradient(#A01BCF, #A01BCF, #A01BCF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+
+.artist4{ 
+text-decoration:none;
+color: #000000;
+font-weight: bold;
+font-family: helvetica, sans-serif;
+font-size: 20px;
+
+}
+
+.artist4:hover {
+	background: -webkit-radial-gradient(#A01BCF, #A01BCF, #A01BCF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.shirt img {
+position: absolute;
+bottom: 190px;
+width: 450px;
+height: 300px;
+left: 750px;
+}
+
+.shirt1:hover {
+	background: -webkit-radial-gradient(#A01BCF, #A01BCF, #A01BCF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.lady img {
+position: absolute;
+bottom: -215px;
+width: 450px;
+height: 300px;
+left: 750px;
+}
+
+.artist1:hover {
+	background: -webkit-radial-gradient(#A01BCF, #A01BCF, #A01BCF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.window img {
+position: absolute;
+bottom: -615px;
+width: 450px;
+height: 300px;
+left: 750px;
+}
+
+.makeup img {
+position: absolute;
+bottom: -1030px;
+width: 450px;
+height: 300px;
+left: 750px;
+}
+
+/* artworks page */
+
+.asco img {
+position: absolute;
+    bottom: -349px;
+    width: 465px;
+    height: 448px;
+    left: 85px;
+}
+
+.anthony1 img {
+position: absolute;
+    bottom: -1298px;
+    width: 450px;
+    height: 300px;
+    left: 675px;
+}
+
+.laura img {
+position: absolute;
+    bottom: -2215px;
+    width: 390px;
+    height: 509px;
+    left: 530px;
+}
+
+.joey1 img {
+position: absolute;
+    bottom: -1901px;
+    width: 390px;
+    height: 509px;
+    left: 88px;
+}
+
+.shirt1 img {
+position: absolute;
+    bottom: 170px;
+    width: 465px;
+    height: 325px;
+    left: 85px;
+}
+
+.lady1 img {
+position: absolute;
+    bottom: 170px;
+    width: 465px;
+    height: 325px;
+    left: 668px;
+}
+
+.window1 img {
+position: absolute;
+bottom: -300px;
+width: 465px;
+    height: 345px;
+left: 668px;
+}
+
+.makeup1 img {
+position: absolute;
+    bottom: -1298px;
+    width: 450px;
+    height: 300px;
+    left: 85px;
+}
+
+.portrait img {
+position: absolute;
+    bottom: -2438px;
+    width: 401px;
+    height: 471px;
+    left: 681px;
+}
+
+.two img {
+position: absolute;
+    bottom: -2369px;
+    width: 460px;
+    height: 370px;
+    left: 90px;
+}
+
+.home img {
+position: absolute;
+    bottom: -901px;
+    width: 388px;
+    height: 488px;
+    left: 672px;
+}
+
+
+.one img {
+position: absolute;
+    bottom: -901px;
+    width: 388px;
+    height: 488px;
+    left: 90px;
+}
+
+/* Joey Terrill page */
+
+
+.shirt2 img {
+position: absolute;
+bottom: -430px;
+width: 1149px;
+height: 900px;
+left: 20px;
+}
+
+.joey2 img {
+position: absolute;
+bottom: -1090px;
+width: 500px;
+height: 600px;
+left: 676px;
+}
+
+
+.home1 img {
+position: absolute;
+    bottom: -1090px;
+    width: 500px;
+    height: 600px;
+    left: 20px;
+}
+
+.joey1-descript{
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 16px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 1075px;
+left: 5px;
+}
+
+.joey2-descript{
+font-family: helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    position: absolute;
+    padding: 17px;
+    top: 1738px;
+    left: 5px;
+}
+
+.joey3-descript{
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    position: absolute;
+    padding: 17px;
+    top: 1756px;
+    left: 5px;
+}
+
+.joey4-descript{
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 16px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 1734px;
+left: 663px;
+
+}
+
+/* Laura Aguilar page */
+
+.lady2 img {
+position: absolute;
+bottom: -430px;
+width: 1149px;
+height: 900px;
+left: 20px;
+}
+
+
+.one1 img {
+position: absolute;
+    bottom: -1102px;
+    width: 500px;
+    height: 600px;
+    left: 20px;
+}
+
+
+.laura1 img {
+position: absolute;
+bottom: -1102px;
+width: 500px;
+height: 600px;
+left: 676px;
+}
+
+
+
+.laura1-descript{
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 16px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 1075px;
+left: 5px;
+}
+
+.laura2-descript{
+ font-family: helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    position: absolute;
+    padding: 17px;
+    top: 1745px;
+    left: 5px;
+}
+
+.laura3-descript{
+ font-family: helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    position: absolute;
+    padding: 17px;
+    top: 1762px;
+    left: 5px;
+}
+
+.laura4-descript{
+ font-family: helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    position: absolute;
+    padding: 17px;
+    top: 1743px;
+    left: 661px;
+}
+
+/* Mundo Meza page */
+
+.anthony2 img {
+position: absolute;
+    bottom: -430px;
+    width: 1190px;
+    height: 900px;
+    left: 20px;
+}
+
+.window2 img {
+position: absolute;
+    bottom: -1006px;
+    width: 800px;
+    height: 500px;
+    left: 20px;
+}
+
+.portrait1 img {
+position: absolute;
+ bottom: -1006px;
+width: 370px;
+height: 502px;
+left: 855px;
+}
+
+.mundo1-descript{
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 16px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 1075px;
+left: 5px;
+}
+
+.mundo2-descript{
+font-family: helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    position: absolute;
+    padding: 17px;
+    top: 1645px;
+    left: 5px;
+}
+
+.mundo3-descript{
+font-family: helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    position: absolute;
+    padding: 17px;
+    top: 1660px;
+    left: 5px;
+}
+
+.mundo4-descript{
+font-family: helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    position: absolute;
+    padding: 17px;
+    top: 1647px;
+    left: 845px;
+}
+
+
+
+/* Patssi Valdez page */
+
+.makeup2 img {
+position: absolute;
+    bottom: -430px;
+    width: 1190px;
+    height: 900px;
+    left: 20px;
+}
+
+.two1 img {
+position: absolute;
+    bottom: -1020px;
+    width: 800px;
+    height: 500px;
+    left: 20px;
+}
+
+.asco1 img {
+position: absolute;
+bottom: -1020px;
+width: 370px;
+height: 500px;
+left: 855px;
+}
+
+.patssi1-descript{
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 16px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 1075px;
+left: 5px;
+}
+
+.patssi2-descript{
+font-family: helvetica, sans-serif;
+font-weight: bold;
+font-size: 16px;
+color: #000000;
+position: absolute;
+padding: 17px;
+top: 1090px;
+left: 5px;
+}
+
+.patssi3-descript{
+font-family: helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    position: absolute;
+    padding: 17px;
+    top: 1660px;
+    left: 5px;
+}
+
+.patssi4-descript{
+font-family: helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    position: absolute;
+    padding: 17px;
+    top: 1678px;
+    left: 5px;
+}
+
+
+.patssi5-descript{
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    position: absolute;
+    padding: 17px;
+    top: 1657px;
+    left: 845px;
+}
